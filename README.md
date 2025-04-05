@@ -6,7 +6,7 @@ This repository contains optimized solutions for **Data Structures & Algorithms*
 - 📋 **Sorting Algorithms**
 - 🌐 **Graph Algorithms** (BFS, DFS, Dijkstra)
 - 📄 **Dynamic Programming** (Memoization, Tabulation)
-- 🔍 **Popular LeetCode Problems**
+- 🔍 **Popular LeetCode Problems and codeforces **
 
 ## 🚀 Getting Started
 
