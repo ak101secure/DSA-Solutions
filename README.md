@@ -14,9 +14,6 @@ This repository contains optimized solutions for Data Structures & Algorithms pr
 🚀 Getting Started
 1️⃣ Clone the Repository
 To download and use the repository locally, run the following commands:
-
-bash
-Copy
-Edit
+''
 git clone https://github.com/your-username/DSA-Solutions.git
-cd DSA-Solutions
+cd DSA-Solutions ''
