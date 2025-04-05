@@ -43,3 +43,44 @@ python quick_sort.py
 │   ├── problem_name.py
 │── README.md
 ```
+🧠 Complexity Analysis
+Each algorithm file contains a detailed explanation of its time and space complexity to help understand efficiency.
+
+Example (Quick Sort):
+```python
+# Quick Sort Algorithm in Python
+
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
+
+# Example Usage
+arr = [10, 7, 8, 9, 1, 5]
+sorted_arr = quick_sort(arr)
+print("Sorted Array:", sorted_arr)
+
+"""
+🔹 Time Complexity: O(n log n) (Average Case)
+🔹 Space Complexity: O(n)
+"""
+```
+
+🛠️ Contribution Guidelines
+Contributions are welcome! Follow these steps:
+
+Fork the repository
+
+Create a new branch (feature/your-feature-name)
+
+Commit changes (git commit -m "Added new algorithm")
+
+Push to your fork and create a pull request
+
+
+🎉 Acknowledgment
+This repository is constantly updated with new problems and solutions. If you find any issues, feel free to raise an issue or contribute! 🚀
