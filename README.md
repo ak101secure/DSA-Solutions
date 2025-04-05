@@ -15,3 +15,23 @@ To download and use the repository locally, run the following command:
 ```bash
 git clone https://github.com/your-username/DSA-Solutions.git
 cd DSA-Solutions
+
+📂 Folder Structure
+plaintext
+Copy code
+/DSA-Solutions
+│── /Sorting
+│   ├── bubble_sort.py
+│   ├── quick_sort.py
+│   ├── merge_sort.py
+│── /Graphs
+│   ├── bfs.py
+│   ├── dfs.py
+│   ├── dijkstra.py
+│── /Dynamic_Programming
+│   ├── fibonacci_memoization.py
+│   ├── knapsack_problem.py
+│── /LeetCode
+│   ├── two_sum.py
+│   ├── longest_substring.py
+│── README.md
